@@ -3,6 +3,8 @@ Reversed Network File System
 
 ## Goals
 
+TLDR; Enable file sharing behind NAT
+
 Files/Folders behind the NAT are getting updated or listed in system X.
 
 System Y can be used as a proxy to list, update, create, delete files of the X.
