@@ -3,7 +3,9 @@ Reversed Network File System
 
 ## Goals
 
-TLDR; Enable file sharing behind NAT
+TLDR; Enable file sharing beyond NAT.
+
+### Example
 
 Files/Folders behind the NAT are getting updated or listed in system X.
 
@@ -17,11 +19,11 @@ This will allow to remount/link the files to any other service. And server Y can
 
 System Y must have a static ip or DNS attched.
 
-System X may or may not have static ip or DNS attached
+System X may or may not have static ip or DNS attached.
 
-Senario A: If a static ip or DNS is attached then it is better to use any NFS protocols
+If System X has static ip or DNS then it is better to use any NFS protocols such as ftp or samba.
 
-SFN does not want to replace senario A, It is only suitable for senario in Goals
+SFN does not want to replace above senario, It is only suitable for senario in Main example.
 
 ## Standard Usage
 
@@ -33,6 +35,7 @@ SFN will come with 2 services. A and B.
 ### Flow
 
 #### for B
+
 B is to be installed on any internet exposed system
 
 Once B is started a port will be opened to recive communicatiobn requests/data from A.
