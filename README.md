@@ -5,6 +5,8 @@ Reversed Network File System
 
 TLDR; Enable file sharing beyond NAT.
 
+Just like https://tailscale.com/
+
 ### Example
 
 Files/Folders behind the NAT are getting updated or listed in system X.
